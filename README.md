@@ -11,14 +11,16 @@
 - Python 3.x instalado en tu sistema 🐍
 - Pip, el confiable administrador de paquetes de Python 📦
 
-```bash
-# Clona el Repositorio 📥
-git clone https://github.com/tu-usuario/proyecto-creacion-api-rest.git
 
+# Clona el Repositorio 📥
+```bash
+git clone https://github.com/tu-usuario/proyecto-creacion-api-rest.git
+```
 # Configura el Entorno Virtual 🌐
+```bash
 cd proyecto-creacion-api-rest
 python -m venv venv
-
+```
 # Activa el Entorno Virtual (Windows) 💻
 venv\Scripts\activate
 
