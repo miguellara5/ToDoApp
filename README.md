@@ -15,3 +15,24 @@
 # Clona el Repositorio 📥
 git clone https://github.com/tu-usuario/proyecto-creacion-api-rest.git
 
+# Configura el Entorno Virtual 🌐
+cd proyecto-creacion-api-rest
+python -m venv venv
+
+# Activa el Entorno Virtual (Windows) 💻
+venv\Scripts\activate
+
+# Activa el Entorno Virtual (macOS/Linux) 🍏
+source venv/bin/activate
+
+# Instala Dependencias 📦
+pip install -r requirements.txt
+
+# Configura la Base de Datos 💾
+python manage.py migrate
+
+# Crea un Superusuario 🦸‍♂️
+python manage.py createsuperuser
+
+# Ejecuta el Servidor y Despega! 🚀
+python manage.py runserver
